@@ -28,12 +28,4 @@ https://explorer-evm.testnet.swisstronik.com/tx/0xf12314c712bb1b0525d59ae560eeff
 ```
 const contract = await hre.ethers.deployContract("Swisstronik", ["Hello Swisstronik!!"]);
 ```
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
