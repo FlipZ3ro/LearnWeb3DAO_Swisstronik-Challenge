@@ -1,6 +1,6 @@
 # LearnWeb3DAO <> Swisstronik Challenge
 
-Task: 
+Task : 
 Deploy a smart contract using Hardhat
 
 
