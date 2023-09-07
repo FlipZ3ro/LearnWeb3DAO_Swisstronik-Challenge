@@ -29,3 +29,17 @@ https://explorer-evm.testnet.swisstronik.com/tx/0xf12314c712bb1b0525d59ae560eeff
 const contract = await hre.ethers.deployContract("Swisstronik", ["Hello Swisstronik!!"]);
 ```
 
+## Interact with the contract - Transaction
+```
+npm i @swisstronik/swisstronik.js
+```
+Create setMessage.js in folder Scripts
+
+```
+npx hardhat run scripts/setMessage.js --network swisstronik
+```
+
+### TX interact
+```
+https://explorer-evm.testnet.swisstronik.com/tx/0x5f79bfec5dbb5ed32611c76232347865c09531eb846edb908e4ba67c5278b97e
+```
